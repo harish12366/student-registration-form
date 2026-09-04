@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form </title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <main>
+        <section>
+            <form action="">
+            <label for="">Full Name:</label><br>
+            <input type="text" placeholder="Enter your name" required><br><br>
+             <label for="">Email:</label><br>
+            <input type="email" placeholder="Enter your email" required><br><br>
+            <label for="">Password:</label><br>
+            <input type="password" required><br><br>
+            <label for="">Gender:</label><br>
+            <label for="male"><input type ="radio" name="gender" id="male" required>Male</label>   
+            <label for="female"><input type ="radio" name="gender" id="female">Female</label><br><br>   
+            <label for="">Skills:</label><br>
+            <input type ="checkbox" >
+            <label for="">HTML</label>
+            <input type ="checkbox" >
+            <label for="">CSS</label>
+            <input type ="checkbox">
+            <label for="">JavaScript</label><br><br>
+            <label for="">Date Of Birth:</label><br>
+            <input type="date" required><br><br>
+            <button type="submit">Register</button>
+            </form> 
+        </section>
+        <hr>
+        <section>
+            <h1>Submitted Students(Dummy Data)</h1>
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Skills</th>
+                    <th>DOB</th>
+                </tr>
+                <tr>
+                    <td>Alice</td>
+                    <td>alice@example.com</td>
+                    <td>Female</td>
+                    <td>HTML,CSS</td>
+                    <td>2002-05-10</td>
+                </tr>
+                 <tr>
+                    <td>Bob</td>
+                    <td>bob@example.com</td>
+                    <td>Male</td>
+                    <td>JavaScript</td>
+                    <td>2001-11-22</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
